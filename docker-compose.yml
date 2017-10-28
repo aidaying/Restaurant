@@ -1,0 +1,8 @@
+version: '3'
+
+services:
+  restaurant:
+    image: restaurant
+    build:
+      context: ./Restaurant
+      dockerfile: Dockerfile
