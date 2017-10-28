@@ -1,6 +1,7 @@
 ﻿body {
     padding-top: 50px;
     padding-bottom: 20px;
+    background-color: rebeccapurple;
 }
 
 /* Wrapping element */
@@ -8,6 +9,7 @@
 .body-content {
     padding-left: 15px;
     padding-right: 15px;
+    height:1500px;
 }
 
 /* Carousel */
@@ -32,4 +34,15 @@
     .carousel-caption {
         display: none;
     }
+}
+
+footer {
+    height:50px;
+    text-align:center;
+    background-color:black;
+    border-top-style:solid;
+    border-top-color:white;
+    border-top-width:10px;
+    color:grey;
+    padding-top:15px;
 }
